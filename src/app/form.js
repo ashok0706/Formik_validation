@@ -1,6 +1,6 @@
 import { ErrorMessage, Field, Form, Formik } from 'formik';
 import * as Yup from 'yup';
-// import './App.css';
+import './globals.css';
 
 function form() {
   return (
