@@ -15,7 +15,7 @@ function form() {
           .required('Phone Number required')
           .min(10, 'please enter min 10 digits')
           .max(10, 'please eneter max 10 digits '),
-        // location: Yup.string().required('Location Required'),
+        location: Yup.string().required('Location Required'),
       })}
       onSubmit={(values, { setSubmitting }) => {
         setTimeout(() => {
